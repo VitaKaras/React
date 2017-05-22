@@ -1,0 +1,63 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <style>
+        #calculator {
+            width: 400px;
+            height: 198px;
+            background-color: #BF7130;
+            margin: auto;
+            border: 2px solid black;
+        }
+
+        #field1, #field2, #field3 {
+            display: inline-block;
+            width: 47%;
+            margin: 6px;
+            height: 20px;
+            text-align: right;
+        }
+
+        #field3{
+            width: 97%;
+            height: 40px;
+            font-size: 14pt;
+            text-align: center;
+        }
+
+        input[type = "button"] {
+            display: inline-block;
+            width: 47%;
+            height: 40px;
+            margin: 5px;
+            border: 2px solid #FF7400;
+            font-weight: bold;
+            background-color: #FF9640;
+        }
+        #buttons {
+            width: 394px;
+            margin: auto;
+            height: 155px;
+            background-color: #FFB273;
+            border: 2px solid black;
+        }
+
+        .error {
+            color: #990000; 
+            font-weight: bold; 
+            padding-left: 10px;
+        }
+        
+    </style>
+
+    <body>
+        <div id="root"></div>
+        <script src="build/bundle.js">
+        </script>
+    </body>
+
+    </html>
